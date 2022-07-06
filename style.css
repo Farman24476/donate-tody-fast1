@@ -302,3 +302,11 @@ h1 {
    background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
 }
+
+.update {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
