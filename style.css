@@ -162,8 +162,6 @@ hr {
    justify-content: space-between;
 }
 
-}
-
 .donate-col-one {
    flex-basis: 50%;
    height: 150px;
@@ -376,4 +374,8 @@ h1 {
    background: #7777;
    background-image: linear-gradient(tomato);
 
+}
+
+#food {
+   background-color: #f78a8a;
 }
