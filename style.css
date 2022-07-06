@@ -32,12 +32,16 @@
 }
 
 .text-box p {
-   margin: 10px 0 40px;
-   font-size: 30px;
-   color: #fff;
+   font-size: large;
+   font-family: open Sans;
+   padding-top: 40px;
+   color: whitesmoke;
+
+
 }
 
 .link-button {
+   margin-top: 30px;
    display: inline-block;
    background-image: linear-gradient(orange, tomato);
    text-decoration: none;
@@ -86,7 +90,28 @@ p {
 
 .donate-col {
    flex-basis: 50%;
-   height: 100px;
+   height: 150px;
+   width: 100px;
+   background: #fff3f3;
+   margin: 20px;
+   float: left;
+   border-width: 20px;
+   border-radius: 10px;
+   margin-bottom: 20%;
+   padding: 20px 20px;
+   padding: center;
+   box-sizing: border-box;
+   transition: 0.5s;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.donate-col1 {
+   flex-basis: 50%;
+   height: 175px;
    width: 100px;
    background: #fff3f3;
    margin: 20px;
@@ -95,6 +120,7 @@ p {
    border-radius: 10px;
    margin-bottom: 20%;
    padding: 20px 12px;
+   padding: center;
    box-sizing: border-box;
    transition: 0.5s;
    text-align: center;
@@ -222,34 +248,38 @@ footer {
    box-sizing: border-box;
 }
 
-.get-up {
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-
-}
-
 .form-box {
-   padding: 10px;
+   width: 600px;
+   height: 50px;
+   margin-right: 20%;
+   margin-left: 20%;
+   margin-top: 2%;
+   margin-bottom: 8%;
+   padding: 50px;
+   padding-left: 25px;
+   border-left: 40%;
+   border-top: 10%;
    border-radius: 10px;
-   background: #ececec;
+   background: #fff3f3;
    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
 }
 
 .form-box input {
-   font-size: 12px;
+   border-radius: 5px;
+   margin-left: 130px;
+   position: center;
+   border-left: 0;
+   font-size: 18px;
    color: #000;
-   padding: 70px;
+   padding: 15px 10px;
    border: none;
    outline: none;
    background: #ececec;
+
 }
 
 .form-box button {
-   color: #fff;
-   pad: 15px 20px;
+   padding: 15px 20px;
    font-size: 20px;
    border: none;
    border-radius: 5px;
@@ -309,4 +339,41 @@ h1 {
    justify-content: center;
    flex-direction: column;
    text-align: center;
+}
+
+.btn-btn-primary {
+   height: 80px;
+   width: 80px;
+   margin: auto;
+   border-radius: 10px solid gray;
+   border: none;
+   font-size: 20px;
+   text-transform: capitalize;
+   white-space: nowrap;
+}
+
+.btn {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 35px;
+
+
+}
+
+.btn-btn-primary1 {
+
+   height: 80px;
+   width: 80px;
+   margin: 10px;
+   border-color: tomato;
+   border-radius: 10px;
+   background-color: #777;
+   background-repeat: no repeat;
+   cursor: pointer;
+   background: #7777;
+   background-image: linear-gradient(tomato);
+
 }
