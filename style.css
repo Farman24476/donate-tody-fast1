@@ -9,7 +9,7 @@
 .header {
    min-height: 100vh;
    width: 100%;
-   background-image: url(images/donation1.jpg);
+   background-image: url(images/donation13.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -109,11 +109,11 @@ p {
 
 }
 
-.donate-col1 {
+#donate-col1 {
    flex-basis: 50%;
-   height: 175px;
+   height: 350px;
    width: 100px;
-   background: #fff3f3;
+   background: beige;
    margin: 20px;
    float: left;
    border-width: 15px;
@@ -124,6 +124,52 @@ p {
    box-sizing: border-box;
    transition: 0.5s;
    text-align: center;
+}
+
+#donate-col2 {
+   flex-basis: 50%;
+   height: 350px;
+   width: 100px;
+   background: tan;
+   margin: 20px;
+   float: left;
+   border-width: 15px;
+   border-radius: 10px;
+   margin-bottom: 20%;
+   padding: 20px 12px;
+   padding: center;
+   box-sizing: border-box;
+   transition: 0.5s;
+   text-align: center;
+}
+
+#donate-col3 {
+   flex-basis: 50%;
+   height: 350px;
+   width: 100px;
+   background: aqua;
+   margin: 20px;
+   float: left;
+   border-width: 15px;
+   border-radius: 10px;
+   margin-bottom: 20%;
+   padding: 20px 12px;
+   padding: center;
+   box-sizing: border-box;
+   transition: 0.5s;
+   text-align: center;
+}
+
+#donate-col3 p {
+   text-align: justify;
+}
+
+#donate-col2 p {
+   text-align: justify;
+}
+
+#donate-col1 p {
+   text-align: justify;
 }
 
 h3 {
@@ -310,6 +356,14 @@ h1 {
    width: 50%;
    padding: 5%;
 
+
+}
+
+.half-width img {
+   width: 500%;
+   height: 100%;
+   padding: 5%;
+   border-radius: 20px;
 }
 
 .half-width img {
@@ -374,8 +428,4 @@ h1 {
    background: #7777;
    background-image: linear-gradient(tomato);
 
-}
-
-#food {
-   background-color: #f78a8a;
 }
